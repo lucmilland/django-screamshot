@@ -8,7 +8,7 @@ SCREAMSHOT_AS_INSTANCE = app_settings['SCREAMSHOT_AS_INSTANCE']
 
 
 class WebPageScreenshotAdmin(admin.ModelAdmin):
-    readonly_fields = ('screenshot_tag', 'last_updated')
+#    readonly_fields = ('screenshot_tag', 'last_updated')
     fields = [
         'url',
         'screenshot_tag',
